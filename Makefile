@@ -9,8 +9,8 @@ PKG_RELEASE:=1
 PKG_SOURCE_PROTO:=git
 #PKG_SOURCE_URL:=https://github.com/kob/nf_deaf.git
 PKG_SOURCE_URL:=https://github.com/NNdroid/nf_deaf
-PKG_SOURCE_DATE:=2025-12-13   # 替换为仓库实际提交日期
-PKG_SOURCE_VERSION:=d6f1ca8cdb4ba6f18fd40aff897ddb60a33344f2  # 替换为实际提交的哈希值（例如 `git rev-parse HEAD`）
+PKG_SOURCE_DATE:=2025-12-16   # 替换为仓库实际提交日期
+PKG_SOURCE_VERSION:=d91484d7d4ee3e9f584fcdd5f33192a7d5645c29  # 替换为实际提交的哈希值（例如 `git rev-parse HEAD`）
 PKG_MIRROR_HASH:=skip
 
 include $(INCLUDE_DIR)/package.mk
